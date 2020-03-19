@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/deployedCalculator/static/js/main.bfbd98fd.chunk.js",
-    "main.js.map": "/deployedCalculator/static/js/main.bfbd98fd.chunk.js.map",
-    "runtime-main.js": "/deployedCalculator/static/js/runtime-main.720024c5.js",
-    "runtime-main.js.map": "/deployedCalculator/static/js/runtime-main.720024c5.js.map",
-    "static/js/2.51e2010b.chunk.js": "/deployedCalculator/static/js/2.51e2010b.chunk.js",
-    "static/js/2.51e2010b.chunk.js.map": "/deployedCalculator/static/js/2.51e2010b.chunk.js.map",
-    "index.html": "/deployedCalculator/index.html",
-    "precache-manifest.9e68bfdf7580b22ca7b0201c1279c0b3.js": "/deployedCalculator/precache-manifest.9e68bfdf7580b22ca7b0201c1279c0b3.js",
-    "service-worker.js": "/deployedCalculator/service-worker.js",
-    "static/js/2.51e2010b.chunk.js.LICENSE.txt": "/deployedCalculator/static/js/2.51e2010b.chunk.js.LICENSE.txt"
+    "main.js": "/deployedCalculator/build/static/js/main.ac114040.chunk.js",
+    "main.js.map": "/deployedCalculator/build/static/js/main.ac114040.chunk.js.map",
+    "runtime-main.js": "/deployedCalculator/build/static/js/runtime-main.f0f69361.js",
+    "runtime-main.js.map": "/deployedCalculator/build/static/js/runtime-main.f0f69361.js.map",
+    "static/js/2.51e2010b.chunk.js": "/deployedCalculator/build/static/js/2.51e2010b.chunk.js",
+    "static/js/2.51e2010b.chunk.js.map": "/deployedCalculator/build/static/js/2.51e2010b.chunk.js.map",
+    "index.html": "/deployedCalculator/build/index.html",
+    "precache-manifest.d55af0537b1eecbff9fb83478a834483.js": "/deployedCalculator/build/precache-manifest.d55af0537b1eecbff9fb83478a834483.js",
+    "service-worker.js": "/deployedCalculator/build/service-worker.js",
+    "static/js/2.51e2010b.chunk.js.LICENSE.txt": "/deployedCalculator/build/static/js/2.51e2010b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.720024c5.js",
+    "static/js/runtime-main.f0f69361.js",
     "static/js/2.51e2010b.chunk.js",
-    "static/js/main.bfbd98fd.chunk.js"
+    "static/js/main.ac114040.chunk.js"
   ]
 }
