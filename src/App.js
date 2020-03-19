@@ -34,11 +34,6 @@ class App extends Component {
   handleResetCount = () => {
     this.setState({ count: this.state.count = 0 })
   }
-  // write a function that moves count down by 1
-
-  // write a function that moves count up by multiplying count by 2
-
-  // write a function that moves count down by dividing count by 2
 
   handleOperator = (value) => {
 
@@ -47,6 +42,7 @@ class App extends Component {
   }
 
   handleEqual = (value) => {
+
     let num1 = Number(this.state.num1String)
     let num2 = Number(this.state.num2String)
     let result = 0
@@ -68,20 +64,28 @@ class App extends Component {
       default:
         result = NaN;
     }
-    this.setState({ display: result })
+    this.setState({ display: '=' + result })
   }
 
   handleEnterNumber = (value) => {
+    if (this.state.isCalculated)    
+    {
+      this.handleClear()
+          
+    }
+
     if ((this.state.isOperatorChose === false) && (this.state.isCalculated === false)) {
       this.setState({ num1String: this.state.num1String + value })
 
     }
-    else
+    else if ((this.state.isOperatorChose === true) && (this.state.isCalculated === false)) 
     {
       this.setState({ num2String: this.state.num2String + value })
 
     }
   }
+
+  
   handleClear =()=>
   {
     this.setState({ result: 0 })
@@ -97,11 +101,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Number 1: {this.state.num1String}</h1>
-        <h1>Operator: {this.state.operator}</h1>
-        <h1>Number 2: {this.state.num2String}</h1>
-        <h1>Result: {this.state.display}</h1>
-
+        <h1> {this.state.num1String}{this.state.operator}{this.state.num2String}{this.state.display}</h1>
+        
         <KeyButton
           keyItem={0}
           handleKey={this.handleEnterNumber} />
