@@ -1,2 +1,2 @@
-# deployedCalculator
-Deployed React
+# React Calculator
+Very basic react calculator
